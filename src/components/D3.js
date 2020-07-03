@@ -69,7 +69,7 @@ function D3() {
     width: 1500,
     d3: {
       alphaTarget: 0.05,
-      gravity: -250,
+      gravity: -850,
       linkLength: 120,
       linkStrength: 2,
       disableLinkForce: false
@@ -77,10 +77,10 @@ function D3() {
     node: {
       color: "#d3d3d3",
       fontColor: "black",
-      fontSize: 10,
+      fontSize: 14,
       fontWeight: "normal",
       highlightColor: "red",
-      highlightFontSize: 14,
+      highlightFontSize: 16,
       highlightFontWeight: "bold",
       highlightStrokeColor: "red",
       highlightStrokeWidth: 1.5,
@@ -96,10 +96,10 @@ function D3() {
     link: {
       color: "lightgray",
       fontColor: "black",
-      fontSize: 8,
+      fontSize: 12,
       fontWeight: "normal",
       highlightColor: "red",
-      highlightFontSize: 8,
+      highlightFontSize: 14,
       highlightFontWeight: "normal",
       labelProperty: "label",
       mouseCursor: "pointer",
