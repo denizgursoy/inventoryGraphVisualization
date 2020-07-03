@@ -1,10 +1,6 @@
 import React from 'react';
 import { Graph } from "react-d3-graph";
 import "./index.css"
-import { tree } from 'd3';
-
-
-
 
 
 function App() {
@@ -67,7 +63,7 @@ function App() {
     maxZoom: 12,
     minZoom: 0.05,
     nodeHighlightBehavior: true,
-    panAndZoom: false,
+    panAndZoom: true,
     staticGraph: false,
     staticGraphWithDragAndDrop: false,
     width: 1500,
@@ -123,7 +119,6 @@ function App() {
         id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error
         data={data}
         config={myConfig}
-        heigt="800"
       />
     </div>
   );
